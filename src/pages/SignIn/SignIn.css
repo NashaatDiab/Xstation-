@@ -1,0 +1,105 @@
+.container {
+    max-width: 450px;
+    margin: 0 auto;
+    padding: 20px;
+    border: none;
+    border-radius: 5px;
+    background-color: #ffffffff;
+  }
+  
+  .welcome-message {
+    text-align: center;
+  }
+  
+  .form {
+   
+    margin: auto;
+  }
+  
+  .input-group {
+    position: relative;
+  }
+  
+  .input-field {
+    width: 100%;
+    padding: 10px;
+    background-color: #ededed;
+    border: none;
+    border-radius: 5px;
+    font-size: 16px;
+    outline: none;
+  }
+  
+  .icon2 {
+    position: absolute;
+    top: 50%;
+    left: 10px;
+    transform: translateY(-50%);
+  }
+  
+  .remember-me {
+    margin-top: 10px;
+    display: flex;
+    align-items: center;
+    font-size: 14px;
+  }
+  
+  .form-buttons {
+    margin-top: 20px;
+    display: flex;
+    justify-content: space-between;
+    align-items: center;
+  }
+  
+  .register-button {
+    padding: 10px 20px;
+    border: none;
+    border-radius: 5px;
+    background-color:#8281a3;
+    color: #fff;
+    font-size: 16px;
+    cursor: pointer;
+  }
+  
+  .forgot-password-link {
+    font-size: 14px;
+    text-decoration: none;
+    color: #007bff;
+  }
+  
+  .divider {
+    margin: 20px 0;
+    text-align: center;
+  }
+  
+  .divider-text {
+    display: inline-block;
+    padding: 0 10px;
+    background-color: #f9f9f9;
+    color: #ccc;
+    font-size: 14px;
+  }
+  
+  .social-buttons {
+    display: flex;
+    justify-content: center;
+    align-items: center;
+  }
+  
+  .social-button {
+    display: flex;
+    align-items: center;
+    margin-right: 10px;
+    padding: 10px 20px;
+    border: 1px solid #ccc;
+    border-radius: 5px;
+    background-color: #fff;
+    color: #007bff;
+    font-size: 14px;
+    cursor: pointer;
+    text-decoration: none;
+  }
+  
+  .social-icon {
+    margin-right: 5px;
+  }

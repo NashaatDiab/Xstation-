@@ -1,0 +1,27 @@
+footer{
+    background-color: #8281a3;
+   
+}
+
+.footer{
+    flex-wrap: wrap;
+}
+
+footer h4{
+    color: #fff;
+}
+footer p{
+    opacity: .7;
+    color: #fff;
+}
+
+footer p:hover{
+    opacity: 1;
+    cursor: pointer;
+}
+
+
+ h3{
+    width: fit-content;
+    /* border-bottom: 5px solid #000; */
+}
