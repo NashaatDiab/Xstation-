@@ -26,14 +26,13 @@ function SignIn() {
     // يمكنك إجراء المزيد من التحقق من صحة البيانات هنا
 
     // حفظ البيانات في الـ localStorage
-    localStorage.setItem('email', email);
-    localStorage.setItem('password', password);
+
     navigate('/Resume');
 
     // يمكنك إرسال البيانات إلى الخادم أو إجراء إجراء آخر
 
-    alert('تم تسجيل البيانات بنجاح!');
-    setEmail('');
+    
+    setEmail('nashaatdiab7@gmail.com');
     setPassword('');
   };
 
@@ -82,9 +81,10 @@ function SignIn() {
         </div>
         <div className="form-buttons ms-3">
           <button className="register-button" type="submit"  onClick={(params) => {
-            fetch("https://xstaion2001.000webhostapp.com/auth/login",{ method: "POST",    headers: {
-              "Content-Type": "application/json",}, body: JSON.stringify({email , password}),
-          })
+            fetch("https://xstation2001.000webhostapp.com/auth/login")
+            .then(response => response.text())
+            .then(result => console.log(result))
+            .catch(error => console.log('error', error));
           }
           }>Log in</button>
           <Link to="/ForgetPassword" className="forgot-password-link" style={{color:"#9291af" , textDecoration:"none"}} > Forget Password? </Link>

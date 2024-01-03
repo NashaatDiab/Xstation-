@@ -4,7 +4,7 @@ import "./NavBar.css";
 const NavBar = () => {
   const buttons = [
     { name: " Sign In", id: "1 ", url: "/SignIn" },
-    { name: " Register", id: "2 ", url: "/Register"},
+  
   ];
 
   return (
